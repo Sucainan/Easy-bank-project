@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    /* gap: 40em; */
+    gap: 40em; 
     position: relative;
 }
 .img {
@@ -34,13 +34,10 @@ body {
     font-size: 1.1em;
     width: 80%;
 }
-.container {
-    max-width: 150rem;
-    margin-inline: auto;
-
-}
 .Next {
     width: 32%;
+    max-width: 150rem;
+    margin-inline: auto;
 }
 .button2:hover {
     background-color: hsl(233, 8%, 62%);
