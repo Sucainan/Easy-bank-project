@@ -11,34 +11,36 @@ body {
 .Hero {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;    
+    justify-content: center;
+    gap: 52em;
 }
+/* .Hero div:nth-of-type(1) {
+    flex-grow: 1;
+}
+.Hero div:nth-of-type(2) {
+    flex-grow: 1;
+} */
 .img {
    margin: -20em -25em 0 0;
 }
 .head {
   font-weight: 100;
-  font-size: 4em;
+  font-size: 5em;
   margin-bottom: -0.0em;
   color: hsl(233, 26%, 24%);
 }
 .img2 {
-    position: relative;
+    position: absolute;
     top: -8em;
-    left: 27em;
+    left: 80em;
 }
 .para {
     color:  hsl(233, 8%, 62%);
-    font-size: 1.1em;
-    width: 80%;
+    font-size: 1.3em;
 }
 .container {
-    width: 80rem;
+    width: 90rem;
     margin-inline: auto;
-
-}
-.Next {
-    width: 45%;
 }
 .button2:hover {
     background-color: hsl(233, 8%, 62%);
@@ -49,7 +51,7 @@ body {
     margin:1em 0 1em 0;
     background-image:linear-gradient(hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     width: 25%;
-    height: 5%;
+    height: 10%;
     border-radius: 50em;
     color: hsl(0, 0%, 98%);
     border-style: none;
