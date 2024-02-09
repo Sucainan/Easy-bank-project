@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    gap: 40em; 
+    gap: 40em;
     position: relative;
 }
 .img {
@@ -27,17 +27,20 @@ body {
 .img2 {
     position: absolute;
     top: -8em;
-    left: 78em;
+    left: 60em;
 }
 .para {
     color:  hsl(233, 8%, 62%);
     font-size: 1.1em;
     width: 80%;
 }
-.Next {
-    width: 32%;
-    max-width: 150rem;
+.container {
+    width: 80rem;
     margin-inline: auto;
+
+}
+.Next {
+    width: 45%;
 }
 .button2:hover {
     background-color: hsl(233, 8%, 62%);
