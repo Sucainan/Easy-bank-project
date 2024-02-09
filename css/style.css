@@ -10,9 +10,8 @@ body {
 }
 .Hero {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: center;
-    gap: 55em;
+    
 }
 .img {
    margin: -20em -25em 0 0;
@@ -24,9 +23,11 @@ body {
   color: hsl(233, 26%, 24%);
 }
 .img2 {
-    position: absolute;
-    top: -8em;
-    left: 80em;
+    
+}
+.phone {
+    width: 100%;
+    margin-right: -48%;
 }
 .para {
     color:  hsl(233, 8%, 62%);
