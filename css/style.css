@@ -5,14 +5,14 @@ body {
     margin: 0;
     background-image: url(../images/bg-intro-desktop.svg);
     background-repeat: no-repeat;
-    background-position-x: 50em;
-    background-position-y: -16em
+    background-position-x: 55em;
+    background-position-y: -20em
 }
 .Hero {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    gap: 20em;
+    gap: 40em;
 }
 .img {
    margin: -20em -25em 0 0;
@@ -23,19 +23,23 @@ body {
   margin-bottom: -0.0em;
   color: hsl(233, 26%, 24%);
 }
+.img2 {
+    position: absolute;
+    top: -8em;
+    left: 78em;
+}
 .para {
     color:  hsl(233, 8%, 62%);
     font-size: 1.1em;
     width: 80%;
 }
-.img2 {
-    position: absolute;
-    top: -8em;
-    left: 70em;
+.container {
+    max-width: 150rem;
+    margin-inline: auto;
+
 }
 .Next {
     width: 32%;
-    margin-right: 15em;
 }
 .button2:hover {
     background-color: hsl(233, 8%, 62%);
@@ -46,7 +50,7 @@ body {
     margin:1em 0 1em 0;
     background-image:linear-gradient(hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     width: 25%;
-    height: 10%;
+    height: 12%;
     border-radius: 50em;
     color: hsl(0, 0%, 98%);
     border-style: none;
