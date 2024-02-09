@@ -12,20 +12,14 @@ body {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    gap: 52em;
+    gap: 55em;
 }
-/* .Hero div:nth-of-type(1) {
-    flex-grow: 1;
-}
-.Hero div:nth-of-type(2) {
-    flex-grow: 1;
-} */
 .img {
    margin: -20em -25em 0 0;
 }
 .head {
   font-weight: 100;
-  font-size: 5rem;
+  font-size: 4rem;
   margin-bottom: -0.0em;
   color: hsl(233, 26%, 24%);
 }
@@ -36,7 +30,7 @@ body {
 }
 .para {
     color:  hsl(233, 8%, 62%);
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 .container {
     width: 90rem;
