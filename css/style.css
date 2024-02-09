@@ -25,7 +25,7 @@ body {
 }
 .head {
   font-weight: 100;
-  font-size: 5em;
+  font-size: 5rem;
   margin-bottom: -0.0em;
   color: hsl(233, 26%, 24%);
 }
@@ -36,7 +36,7 @@ body {
 }
 .para {
     color:  hsl(233, 8%, 62%);
-    font-size: 1.3em;
+    font-size: 1.4rem;
 }
 .container {
     width: 90rem;
