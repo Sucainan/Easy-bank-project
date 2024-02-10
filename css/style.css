@@ -1,15 +1,15 @@
 body {
 overflow: hidden;
+font-family: Public Sans;
 }
 .Hero {
     display: flex;
     justify-content: center;
-    gap: 20em;
+    gap: 30em;
     
 }
 .bg-container {
     overflow-x: hidden;
-    font-family: Public Sans;
     margin: 0;
     position: absolute;
     background-size: 70% 100%;
@@ -25,6 +25,9 @@ overflow: hidden;
 .img {
    margin: -20em -25em 0 0;
 }
+.Next {
+    margin-right: 15rem;
+}
 .head {
   font-weight: 100;
   font-size: 4rem;
@@ -36,10 +39,10 @@ overflow: hidden;
     margin-right: -48%;
 }
 .img2 {
-    width: 85%;
+    width: 110%;
     height: auto;
     /* position: absolute; */
-    transform: translate(-29%, -15%);
+    transform: translate(-45%, -18%);
 }
 .para {
     color:  hsl(233, 8%, 62%);
@@ -58,7 +61,7 @@ overflow: hidden;
     margin:1em 0 1em 0;
     background-image:linear-gradient(hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     width: 25%;
-    height: 10%;
+    height: 5%;
     border-radius: 50em;
     color: hsl(0, 0%, 98%);
     border-style: none;
