@@ -36,7 +36,7 @@ font-family: Public Sans;
 }
 .phone {
     width: 100%;
-    transform: translate(48%, -18%);
+    /* transform: translate(48%, -18%); */
 }
 .img2 {
     height: auto;
