@@ -43,7 +43,7 @@ font-family: Public Sans;
 .img2 {
     height: auto;
     width: 45vw;
-    margin: -26% 0 15% 43%;
+    margin: -26vh -20vw 0 20vw;
 }
 .para {
     color:  hsl(233, 8%, 62%);
