@@ -31,7 +31,7 @@ font-family: Public Sans;
 }
 .head {
   font-weight: 100;
-  font-size: 3.5rem;
+  font-size: 3.4rem;
   margin-bottom: -0.0em;
   color: hsl(233, 26%, 24%);
 }
@@ -47,7 +47,7 @@ font-family: Public Sans;
 }
 .para {
     color:  hsl(233, 8%, 62%);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .container {
     max-width: 90rem;
