@@ -26,9 +26,9 @@ font-family: Public Sans;
 .img {
    margin: -20em -25em 0 0;
 }
-/* .Next {
-    margin-right: 15rem;
-} */
+.Next {
+    max-width: 30vw;
+}
 .head {
   font-weight: 100;
   font-size: 4rem;
@@ -50,7 +50,7 @@ font-family: Public Sans;
     font-size: 1.3rem;
 }
 .container {
-    width: 90rem;
+    max-width: 90rem;
     margin-inline: auto;
 }
 .button2:hover {
