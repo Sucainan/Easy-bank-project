@@ -68,11 +68,11 @@ font-family: Public Sans;
 .review {
     display: flex;
     justify-content: center;
-    gap: 3em;
+    gap: 2em;
 }
 .child {
     background-color: hsl(0, 0%, 98%);
-    width: 16.5vw;
+    /* width: 17vw; */
     border-radius: 0.5em;
     gap: 2em;
 }
@@ -85,7 +85,7 @@ font-family: Public Sans;
 .head2 {
     font-weight: 300;
     font-size: 2.6rem;
-    margin-left: 8rem;
+    margin-left: 0.5rem;
 }
 .same {
     color: hsl(233, 26%, 24%);
@@ -93,18 +93,18 @@ font-family: Public Sans;
 }
 div > span {
     margin-top: -5em;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     color: hsl(233, 8%, 62%);
 }
 div >h3 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 div >h3:hover {
     color: hsl(136, 65%, 51%);
 }
 div >p {
     color: hsl(233, 8%, 62%);
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 .st {
     padding: 0 2em 0 2em;
