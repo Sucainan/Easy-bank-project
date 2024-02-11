@@ -61,8 +61,8 @@ font-family: Public Sans;
 .button2 {
     margin:1em 0 1em 0;
     background-image:linear-gradient(hsl(136, 65%, 51%), hsl(192, 70%, 51%));
-    width: 25%;
-    height: 5%;
+    width: 10rem;
+    height: 3rem;
     border-radius: 50em;
     color: hsl(0, 0%, 98%);
     border-style: none;
