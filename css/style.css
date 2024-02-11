@@ -5,7 +5,7 @@ font-family: Public Sans;
 .Hero {
     display: flex;
     justify-content: center;
-    gap: 30em;
+    /* gap: 30em; */
     
 }
 .bg-container {
@@ -36,13 +36,10 @@ font-family: Public Sans;
 }
 .phone {
     width: 100%;
-    margin-right: -48%;
+    transform: translate(48%, -18%);
 }
 .img2 {
-    width: 110%;
     height: auto;
-    /* position: absolute; */
-    transform: translate(-45%, -18%);
 }
 .para {
     color:  hsl(233, 8%, 62%);
