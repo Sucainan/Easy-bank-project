@@ -1,6 +1,7 @@
 body {
 overflow-x: hidden;
 font-family: Public Sans;
+background-color: hsl(0, 0%, 98%);
 }
 .Hero {
     display: flex;
@@ -71,7 +72,7 @@ font-family: Public Sans;
     gap: 2em;
 }
 .child {
-    background-color: hsl(0, 0%, 98%);
+    background-color: hsl(0, 0%, 100%);
     /* width: 17vw; */
     border-radius: 0.5em;
     gap: 2em;
@@ -105,6 +106,7 @@ div >h3:hover {
 div >p {
     color: hsl(233, 8%, 62%);
     font-size: 0.9rem;
+    line-height: 1.2rem;
 }
 .st {
     padding: 0 2em 0 2em;
