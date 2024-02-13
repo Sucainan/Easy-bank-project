@@ -73,6 +73,7 @@ background-color: hsl(0, 0%, 98%);
     /* width: 17vw; */
     border-radius: 0.5em;
     gap: 1.5em;
+    overflow: hidden;
 }
 .dollar {
     width: 100%;
@@ -95,7 +96,7 @@ div > span {
     color: hsl(233, 8%, 62%);
 }
 div >h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 div >h3:hover {
     color: hsl(136, 65%, 51%);
