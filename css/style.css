@@ -53,6 +53,7 @@ margin: 0;
 }
 .container {
     width: 88%;
+
     margin-inline: auto;
 }
 .button2 {
@@ -82,7 +83,20 @@ margin: 0;
     flex-direction: column;
     
 }
-
+}
+.child {
+    background-color: hsl(0, 0%, 100%);
+    /* width: 17vw; */
+    border-radius: 0.5em;
+    gap: 1.5em;
+    overflow: hidden;
+}
+.dollar {
+    width: 100%;
+    height: 50%;
+    border-top-right-radius: 0.5em ;
+    border-top-left-radius: 0.5em;
+}
 .head2 {
     font-weight: 300;
     font-size: 2.5rem;
@@ -92,12 +106,14 @@ margin: 0;
     font-weight: 400;
 }
 div > span {
+    margin-top: -5em;
     font-size: 0.8rem;
     color: hsl(233, 8%, 62%);
 }
 div >h3 {
     font-size: 1.5rem;
     margin: 0.5rem;
+    font-size: 1.2rem;
 }
 div >h3:hover {
     color: hsl(136, 65%, 51%);
@@ -113,4 +129,13 @@ div >p {
 .t {
     padding: 0 1em 0 0.5em;
     
+}
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+.st {
+    padding: 0 2em 0 2em;
+}
+.t {
+    padding: 0 1em 0 1em;
 }
