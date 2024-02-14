@@ -8,8 +8,6 @@ margin: 0;
     display: flex;
     justify-content: center;
     gap: 15vw;
-
-    
 }
 .bg-container {
     overflow-x: hidden;
@@ -35,6 +33,14 @@ margin: 0;
   margin-bottom: -0.0em;
   color: hsl(233, 26%, 24%);
 }
+.common {
+    width: 100%;
+    height: 25vh;
+    background-repeat: no-repeat;
+    border-top-right-radius: 0.5em ;
+    border-top-left-radius: 0.5em;
+
+}
 .img2 {
     height: auto;
     width: 45vw;
@@ -46,7 +52,8 @@ margin: 0;
     line-height: 1.3;
 }
 .container {
-    width: 90%;
+    width: 88%;
+
     margin-inline: auto;
 }
 .button2 {
@@ -67,6 +74,15 @@ margin: 0;
 .review {
     display: flex;
     gap: 2em;
+    height: auto;
+}
+.child {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    
+}
 }
 .child {
     background-color: hsl(0, 0%, 100%);
@@ -96,6 +112,8 @@ div > span {
     color: hsl(233, 8%, 62%);
 }
 div >h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem;
     font-size: 1.2rem;
 }
 div >h3:hover {
@@ -103,6 +121,16 @@ div >h3:hover {
 }
 div >p {
     color: hsl(233, 8%, 62%);
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+.st {
+    padding: 0 2em 0 1.5em;
+}
+.t {
+    padding: 0 1em 0 0.5em;
+    
+}
     font-size: 0.8rem;
     line-height: 1.2rem;
 }
@@ -153,3 +181,4 @@ li:hover {
 .svg:hover {
     fill: hsl(136, 65%, 51%);
 }
+
