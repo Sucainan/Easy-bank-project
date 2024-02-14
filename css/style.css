@@ -83,14 +83,6 @@ margin: 0;
     flex-direction: column;
     
 }
-}
-.child {
-    background-color: hsl(0, 0%, 100%);
-    /* width: 17vw; */
-    border-radius: 0.5em;
-    gap: 1.5em;
-    overflow: hidden;
-}
 
 .dollar {
     width: 100%;
@@ -130,9 +122,6 @@ div >p {
 .t {
     padding: 0 1em 0 0.5em;
     
-}
-    font-size: 0.8rem;
-    line-height: 1.2rem;
 }
 .st {
     padding: 0 2em 0 2em;
