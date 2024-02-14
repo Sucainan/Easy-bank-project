@@ -114,7 +114,7 @@ div >p {
     background-color: hsl(233, 26%, 24%);
     display: flex;
     margin: 4em 0 0 0;
-   width: 100%;
+   width: 100vw;
    height: 10em;
    justify-content: center;
    align-items: center;
@@ -131,9 +131,10 @@ li {
     padding: 0 0 0.7em 0;
 }
 .cobine {
+    margin: 1rem 0 0 0;
     display: flex;
     flex-direction: column;
-    gap: 3.5em;
+    gap: 3.1em;
 }
 .site {
     display: flex;
