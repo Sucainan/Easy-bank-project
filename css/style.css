@@ -119,7 +119,7 @@ div >p {
    height: 10em;
    justify-content: center;
    align-items: center;
-   gap: 35%;
+   gap: 35vw;
 }
 .foot {
     display: flex;
