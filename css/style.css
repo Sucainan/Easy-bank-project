@@ -136,18 +136,14 @@ body {
    height: 10em;
    justify-content: center;
    align-items: center;
+   gap: 35vw;
 }
 .foot {
     display: flex;
     flex-direction: row;
     gap: 22%;
-    
-
-}
-.foo {
-    display: flex;
     justify-content: center;
-    gap: 30vw;
+
 }
 ul,
 li {
