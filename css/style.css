@@ -136,7 +136,7 @@ body {
    height: 10em;
    justify-content: center;
    align-items: center;
-   gap: 35vw;
+   gap: 30vw;
 }
 .foot {
     display: flex;
