@@ -83,13 +83,6 @@ body {
         flex-direction: column;
         
     }
-    .child {
-        background-color: hsl(0, 0%, 100%);
-        /* width: 17vw; */
-        border-radius: 0.5em;
-        gap: 1.5em;
-        overflow: hidden;
-    }
     .dollar {
         width: 100%;
         height: 50%;
@@ -143,12 +136,18 @@ body {
    height: 10em;
    justify-content: center;
    align-items: center;
-   gap: 35vw;
 }
 .foot {
     display: flex;
     flex-direction: row;
     gap: 22%;
+    
+
+}
+.foo {
+    display: flex;
+    justify-content: center;
+    gap: 30vw;
 }
 ul,
 li {
