@@ -198,16 +198,21 @@ div > p {
 }
 .nav-bar-section {
   display: flex;
-  background-color: white;
   width: 100vw;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  gap: 300px;
+  gap: 200px;
+  width: 88%;
+  margin-inline:auto;
+}
+.background{
+  background-color: white;
 }
 header{
     position: sticky;
     top: 0;
+    margin-top: -10px;
 }
 .child-navbar {
   display: flex;
