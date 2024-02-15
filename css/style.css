@@ -129,21 +129,21 @@ body {
         padding: 0 1em 0 1em;
     }
 .footer {
+    margin-top: 4em;
     background-color: hsl(233, 26%, 24%);
-    display: flex;
-    margin: 4em 0 0 0;
-    width: 101%;
    height: 10em;
-   justify-content: center;
-   align-items: center;
-   gap: 29vw;
+   display: flex;
 }
 .foot {
     display: flex;
     flex-direction: row;
-    gap: 22%;
-    justify-content: center;
+    gap: 32%;
 
+}
+.fr {
+    display: flex;
+   align-items: center;
+   gap: 50%;
 }
 ul,
 li {
