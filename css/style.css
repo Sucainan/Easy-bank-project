@@ -251,3 +251,30 @@ header{
   text-decoration: none;
   color: hsl(233, 8%, 62%);
 }
+.about-father{
+  background-color:  hsl(220, 16%, 96%);
+  height: 100%;
+  margin-top: -99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p-about{
+  width: 40%;
+}
+.child-about{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.round-child-about{
+  width: 20vw;
+}
+.header3-about{
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: hsl(233, 26%, 24%);
+}
